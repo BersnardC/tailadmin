@@ -5,6 +5,12 @@ use App\Models\Item;
 
 class UtilTails {
 
+    /**
+     * Devuelve un array con la información de la cola disponible con el mejor tiempo para el nuevo item en el momento indicado
+     *
+     * @param  DateTime $start || null
+     * @return array || null
+     */
 	public function get_best_tail($start = null) {
 		$start = $start ?? new \DateTime();
         $best_tail = null;
@@ -32,6 +38,13 @@ class UtilTails {
         return $best_tail;
 	}
 
+     /**
+     * Devuelve un array con la información de la cola requerida a partir del momento indicado
+     *
+     * @param  \App\Models\Tail $tail
+     * @param  DateTime $start_time
+     * @return array || null
+     */
 	public function stimated_times($tail, $start_time = null) : array {
         $minutes = 0;
         $seconds = 0;

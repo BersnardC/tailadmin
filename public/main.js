@@ -14,7 +14,7 @@ $(() => {
 				$('#bn-save').text('Guardando').attr('disabled', true);
 			},
 			success: (resp) => {
-				console.log(resp);
+				//console.log(resp);
 				if (resp.code != 'success') {
 					Swal.fire({
 					  title: 'Error',
@@ -73,7 +73,7 @@ function process_item(item, tail_id) {
 						$(`#tail_peoples_${tail_id}`).html(tail_items);
 				}, 250);
 			}
-			console.log(resp);
+			//console.log(resp);
 		}
 	});
 

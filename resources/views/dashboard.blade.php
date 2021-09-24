@@ -20,7 +20,7 @@
 						@endforeach()
 					</select>
 					<div class="d-grid gap-2">
-						<button type="submit" class="btn btn-dark" id="bn-save">Guardar</button>
+						<button type="submit" class="btn btn-dark" {{count($tails) ? '' : 'disabled'}} id="bn-save">Guardar</button>
 					</div>
 				</form>
 			</div>
