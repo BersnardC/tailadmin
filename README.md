@@ -1,3 +1,5 @@
+![screen](https://user-images.githubusercontent.com/16180762/134702513-eef8752e-7547-409e-aea1-2b63cdf5e46d.png)
+
 ## Instalar dependencias
 
 Para instalar las dependencias del proyecto es necesario tener instalado composer y ejecutar:
