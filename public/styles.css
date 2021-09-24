@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+.tails-item-box {
+	height: 200px;
+	max-height: 200px;
+    overflow: auto;
+}
+
+.header-info {
+	float: right;
+    font-size: 12.5px;
+    margin-top: 3.5px;
+}
+a {
+	color: #212529;
+	text-decoration: none;
+}
+
+.tbtn {
+	background: red;
+    padding: 2.5px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+}
