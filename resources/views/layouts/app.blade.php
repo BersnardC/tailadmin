@@ -17,6 +17,17 @@
 	    <link rel="stylesheet" type="text/css" href="{{url('styles.css')}}">
 	</head>
   	<body>
+  		<div class="hero">
+			<nav>
+				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQG6a0Pw6iyJnA/profile-displayphoto-shrink_200_200/0/1541457400725?e=1637798400&v=beta&t=LfsO6VmLjeFuv8fGf95cZGR62pvkPsiO_mWwv1938AM" alt="" class="logo">
+				<ul>
+					<li><a href="{{url('load_data')}}" target="_blank">Cargar datos</a></li>
+					<li><a href="https://www.linkedin.com/in/bersnardcoello/" target="_blank">Sobre mi</a></li>
+					<li><a href="https://github.com/BersnardC/tailadmin" target="_blank"><span class="fab fa-github"></span></a></li>
+				</ul>
+				<img src="./images/moon.png" alt="" id="icon">
+			</nav>
+		</div>
     	@yield('content')
     	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     	<!-- JavaScript Bundle with Popper -->

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-	<div class="container mt-5">
+	<div class="container mt-3">
 		<h1 class="text-center" id="text-welcome"><img src="{{url('logo-tail.png')}}" width="50px" height="50px"><span style="color: red; font-weight: 800;">Tail</span>Admin</h1>
 		<div class="row mt-5">
 			<div class="col-md-4">
